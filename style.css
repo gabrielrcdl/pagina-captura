@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: black;
+   
+   
+   
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header{
+    background-color: #48C5CE;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+           
+}
+
+.title{
+    font-size: 26px;
+    
+}
+
+section{
+    background-image: url(/imgs/Cópia\ de\ people.jpg);
+    padding: 20px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+
+.formContainer{
+    max-width: 230px ;
+    background-color:rgba(255, 255, 255, 0.726);
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+   
+
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 10px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    
+}
+
+input[type ="submit"]{
+    background-color: #48C5CE;
+    color: white;
+    font-weight: bold;
+    
+}
+ input[type ="submit"]:hover{
+     color:rgb(66, 65, 65);
+
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(/imgs/Cópia\ de\ arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px);   
+}
+.rodape{
+    background-color: rgb(56, 56, 56);
+    padding: 40px;
+    text-align: center;
+    
+}
+.foto{
+    
+    width: 150px;
+    
+    
+}
+
+.description{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+    color: white;
+   margin-left: 40px;   
+}
+
+
+.description p, h3{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:500px){
+.container{
+    
+    
+}
+
+.formContainer{
+  
+
+   margin-right: 13%;
+
+   
+    
+    
+
+    
+}
+
+   .foto{
+       width: 200px;
+       display: inline-block;
+       
+       
+       
+   }
+   .description h3{
+       text-align: center;
+       font-size: 20px;
+   }
+
+   .description {
+       
+       width: 70%;
+       margin-top: 10px;
+       float: none;
+       font-size: 13px;
+       text-align: justify;
+       
+   }
+
+
+    
+}
+    
